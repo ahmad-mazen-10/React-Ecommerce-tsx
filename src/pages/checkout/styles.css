@@ -1,0 +1,111 @@
+.d-f{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+}
+
+.leftContent{
+    max-width: 50%;
+
+}
+.rightContent{
+    max-width: 50%;
+}
+
+.form input{
+    border: none;
+    background-color: #F5F5F5;
+    pad: 13px auto 13px 16px;
+    margin-bottom: 24px;
+}
+.checkInfo {
+        margin: 4px;
+        color: #db4444;
+}
+.oneInput label{
+ color: #00000070;
+}
+
+.product{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 50px;
+}
+.product .productName{
+    font-size: 16px;
+    font-weight: 400;
+    right: 100px;
+    position: relative;
+}
+.money{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+}
+.total{
+    margin-bottom: 32px;
+}
+.bank{
+    display: flex;
+    justify-content: space-between;
+}
+.bank .inputBank label.labelBank,
+.ml-16{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 16px;
+    margin-bottom: 24px;
+}
+
+
+
+.rightContent .product img.imgProduct{
+    width:50px;
+    height:40px;
+}
+
+.bank img.imgPayBank{
+    width: 38px;
+    height: 24px;
+    margin: 4px;
+}
+
+.apply{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.applyCoupon,
+.placeOrder{
+  background-color: #db4444;
+  color: #fafafa;
+  padding: 16px 48px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  font-family: "Poppins";
+  margin: auto;
+  border: none;
+  border-radius: 4px;
+}
+.couponCode{
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 16px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #fff;
+    margin-right: 12px;
+}
+.placeOrder{
+    margin-top: 32px;
+}

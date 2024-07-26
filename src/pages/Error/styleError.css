@@ -1,0 +1,35 @@
+.container-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* position: relative; */
+}
+
+.text {
+  margin: 200px auto 80px;
+  text-align: center;
+  /* position:relative; */
+}
+
+.error {
+  font-weight: 500;
+  font-size: 110px;
+  line-height: 115px;
+  letter-spacing: 3%;
+    /* position:absolute; */
+
+}
+.btn-back {
+  background-color: #db4444;
+  color: #fafafa;
+  padding: 15px 48px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  font-family: "Poppins";
+  margin: auto;
+  border: none;
+  border-radius: 4px;
+    /* position:absolute; */
+}

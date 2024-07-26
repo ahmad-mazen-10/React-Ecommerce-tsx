@@ -1,0 +1,115 @@
+header {
+  width: 100%;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+.iconSearch{
+  display: none;
+}
+.navbar {
+  padding: 0;
+  border-bottom: 0.5px solid #cacaca;
+}
+.notToggle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.iconNav{
+  width: 30px;
+  height: 30px;
+}
+.toggle{
+  display: none;
+}
+.navSearch{
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #b4b4b4;
+}
+.right{
+right: -80px;
+  position: relative;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+width: 90%;
+height: 60px;
+  margin: 0 auto;
+}
+
+/* =================================================== */
+@media screen  and (max-width:1024px){
+  .navSearch{
+    display: none;
+  }
+  img, svg {
+    width: 30%;
+}
+.iconSearch{
+  display: block;
+}
+.right {
+    right: -80px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.iconNav{
+  margin-right: 12px;
+}
+
+.notToggle{
+  display: none;
+}
+
+
+/* ======  toggle bar ============= */
+.menu{
+  width: 32px;
+
+}
+ .toggle{ 
+display: flex;
+flex-direction: column;
+width: 24%;
+float: right;
+background-color: #e7e7e7;
+  right: 0;
+  top: 0;
+  position: absolute;
+  border-radius: 8px 0 0 8px ;
+}
+.navToggle{
+  list-style: none;
+}
+.navToggle li{
+  padding: 10px 0;
+  font-size: 18px;
+}
+.right{
+  right: 70px;
+}
+.hide{
+  display: none;
+}
+
+
+
+}
+
+
+/* @media screen and (max-width:767px){
+.notToggle{
+  display: none;
+} 
+
+}*/

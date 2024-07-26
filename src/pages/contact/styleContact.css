@@ -1,0 +1,77 @@
+.contContact{
+  display: flex;;
+  flex-direction: row;
+  margin: 0 100px;
+}
+
+
+
+.leftBox{
+  width: 35%;
+  position: relative;
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.069), 4px 4px 20px 0 rgba(0, 0, 0, 0.107);
+
+  padding: 40px 53px;
+}
+
+.leftBox .one{
+  width: 100%;
+
+}
+
+.to{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 300px;
+  position: relative;
+  align-items: center
+
+}
+
+.txt{
+  color: #000;
+  margin-top: 42px;
+}
+
+/* ====================================================================================== */
+.rightBox{
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+.rowInputs{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+input,textarea{
+width: 28%;
+position: relative;
+  margin: 16px;
+  padding: 13px 118px 16px;
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 4px;
+}
+textarea{
+width: 100%;
+padding: 16px;
+}
+
+
+.send {
+  background-color: #db4444;
+  color: #fafafa;
+  padding: 15px 48px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  font-family: "Poppins";
+  margin: auto;
+  border: none;
+  border-radius: 4px;
+  float: left;
+  text-decoration: none;
+}
